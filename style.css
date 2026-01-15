@@ -101,7 +101,7 @@ body {
     width: 80%;
     background-color: #269a99;
     margin: 10px auto;
-    border: #7a2642 solid 2px;
+    border: #092727a9 solid 3px;
 }
 
 .history_item {
@@ -122,28 +122,99 @@ body {
     width: 85%;
     float: right;
     height: 100%;
-    border-bottom: #7a2642 solid 2px;
-    border-left: #7a2642 solid 2px;
+    border-bottom: #092727a9 solid 3px;
+    border-left: #092727a9 solid 3px;
     color: #0a2225;
     padding: 20px;
     font-size: 25px;
 
 }
-.history-text p{
+
+.history-text p {
     background-color: #269a98a9;
     padding: 5px;
     font-weight: 600;
     height: 70%;
 }
+
 .date1 {
     background: url(img/1918-ConFemLedroitdevotedesfemmesauQuebecT.jpg)center/cover no-repeat;
 }
-.date2{
+
+.date2 {
     background: url(img/1977-GettyImages-499295003_master-web.jpg) center/cover no-repeat;
 }
-.date3{
+
+.date3 {
     background: url(img/1988-decrim-IVG.png) top/cover no-repeat;
 }
-.date4{
+
+.date4 {
     background: url(img/2012-pauline-marois-premiere-ministre-elections-2012-35697.jpg) top/cover no-repeat;
+}
+
+
+
+.problems {
+    height: 350vh;
+    width: 100%;
+    padding: 50px;
+}
+
+.problems-title {
+    color: #7a2642;
+    font-size: 60px;
+    text-align: left;
+    margin: 20px;
+}
+
+.problems-content {
+    width: 80%;
+    background-color: #f8991d7d;
+    margin: 10px auto;
+    border: #f8981d solid 3px;
+}
+
+.problem {
+    height: 600px;
+    padding: 35px;
+    margin: 30px;
+
+}
+
+.problem h3 {
+    color:  #f8981d;
+    font-size: 30px;
+    margin: 20px;
+    
+}
+
+.problem a {
+    text-decoration: none;
+    color: white;
+    background: #f8981d;
+    padding: 20px;
+    border-radius: 19px;
+    float: right;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.problem p {
+    font-size: 23px;
+    color: #003f63;
+    margin: 20px;
+    background: #f8981dbf;
+    padding: 15px;
+}
+
+
+.pr1 {
+    background: url(img/enjeux1-equite-salariale-2021.png) center/cover no-repeat;
+}
+.pr2{
+    background: url(img/enjeux2-avortement-etats-unis-89884.webp) center/cover no-repeat;
+}
+.pr3{
+    background: url(img/Visuel+-+Féminicides+-+état+des+lieux+de+la+situation+dans+le+monde.png) center/cover no-repeat;
 }
