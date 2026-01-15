@@ -156,7 +156,7 @@ body {
 
 
 .problems {
-    height: 350vh;
+    height: 315vh;
     width: 100%;
     padding: 50px;
 }
@@ -183,10 +183,10 @@ body {
 }
 
 .problem h3 {
-    color:  #f8981d;
+    color: #f8981d;
     font-size: 30px;
     margin: 20px;
-    
+
 }
 
 .problem a {
@@ -212,9 +212,63 @@ body {
 .pr1 {
     background: url(img/enjeux1-equite-salariale-2021.png) center/cover no-repeat;
 }
-.pr2{
+
+.pr2 {
     background: url(img/enjeux2-avortement-etats-unis-89884.webp) center/cover no-repeat;
 }
-.pr3{
+
+.pr3 {
     background: url(img/Visuel+-+Féminicides+-+état+des+lieux+de+la+situation+dans+le+monde.png) center/cover no-repeat;
+}
+
+
+
+.people {
+    width: 100%;
+    height: 150vh;
+    padding: 50px;
+}
+
+.people-content {
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.people-title {
+    color: #7a2642;
+    font-size: 60px;
+    text-align: left;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.people-person {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: #915751 solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100vh;
+    color: wheat;
+    background: #f16d60;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.people-person img {
+    width: 90%;
+    border-radius: 10px;
+    border: wheat solid 2px;
+}
+.person-bio{
+    font-size: 20px;
+    padding: 10px;
+}
+.person-name{
+    font-size: 40px;
 }
