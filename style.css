@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9c1ad;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ee9575;
+    padding: 10px
+}
+
+.menu {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 10vh;
+}
+
+.menu_logo {
+    height: 100%;
+    margin-left: 30px;
+
+}
+
+.nav {
+    float: right;
+    padding: 5px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.header {
+    height: 100vh;
+    background: url(img/00Page-Img_vedette-1200.jpg) center/cover no-repeat;
+    position: relative;
+    padding: 50px;
+}
+
+.header-content {
+    width: 50%;
+    height: 80%;
+    float: left;
+    margin-top: 100px;
+    background-color: #ee95759d;
+    color: #7a2642;
+    padding: 15px;
+}
+
+.def {
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.header-title {
+    font-size: 100px;
+}
+
+.header-subtitle {
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+.header-content p {
+    font-size: 15px;
+    color: rgb(4, 29, 20);
+    text-decoration: underline;
+    margin: 130px auto;
+}
+
+
+
+
+
+.history {
+    height: 300vh;
+    width: 100%;
+    padding: 50px;
+}
+
+.history_title {
+    color: #7a2642;
+    font-size: 60px;
+    text-align: left;
+    margin: 20px;
+}
+
+.history_content {
+    width: 80%;
+    background-color: #269a99;
+    margin: 10px auto;
+    border: #7a2642 solid 2px;
+}
+
+.history_item {
+    height: 450px;
+}
+
+.history-year {
+    width: 15%;
+    float: left;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.history-text {
+    width: 85%;
+    float: right;
+    height: 100%;
+    border-bottom: #7a2642 solid 2px;
+    border-left: #7a2642 solid 2px;
+    color: #0a2225;
+    padding: 20px;
+    font-size: 25px;
+
+}
+.history-text p{
+    background-color: #269a98a9;
+    padding: 5px;
+    font-weight: 600;
+    height: 70%;
+}
+.date1 {
+    background: url(img/1918-ConFemLedroitdevotedesfemmesauQuebecT.jpg)center/cover no-repeat;
+}
+.date2{
+    background: url(img/1977-GettyImages-499295003_master-web.jpg) center/cover no-repeat;
+}
+.date3{
+    background: url(img/1988-decrim-IVG.png) top/cover no-repeat;
+}
+.date4{
+    background: url(img/2012-pauline-marois-premiere-ministre-elections-2012-35697.jpg) top/cover no-repeat;
+}
